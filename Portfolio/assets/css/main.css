@@ -247,6 +247,7 @@ input, select, textarea {
 		color: #ffffff;
 		font-family: Raleway, Helvetica, sans-serif;
 		font-weight: 700;
+		/* Font weight is how you change the boldness of the font from 100-900 (higher being more bold)  */
 		letter-spacing: 0.1em;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
@@ -314,6 +315,7 @@ input, select, textarea {
 	blockquote {
 		border-left: solid 4px rgba(255, 255, 255, 0.125);
 		font-style: italic;
+		/* Another method of changing font style!  */
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
 	}
@@ -330,6 +332,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
+		/* This webkit command is for touch screen users. The touch setting allows momentum to carry when scrolling downwards on a page. */
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
@@ -853,7 +856,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
-
+/* @media screen specifies the @media is for screens/tablets/smartphones as opposed to printers, or speech (screenreaders) */
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -2103,6 +2106,7 @@ input, select, textarea {
 			-ms-flex-wrap: wrap;
 			flex-wrap: wrap;
 			width: calc(100% + 3em);
+			/* calc() lets you do calculations within css! Who woulda thunk this was a thing. */
 			margin: -1.5em 0 2em -1.5em;
 		}
 
@@ -2171,7 +2175,8 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
-	input[type="tel"],
+	input[type="tel"], 
+	/* These input types are for the contact boxes. They have specific layouts I think. */
 	select,
 	textarea {
 		-moz-appearance: none;
