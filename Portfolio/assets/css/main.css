@@ -2220,7 +2220,8 @@ input, select, textarea {
 		background-position: calc(100% - 1rem) center;
 		height: 2.75em;
 		padding-right: 2.75em;
-		text-overflow: ellipsis;
+		text-overflow: ellipsis; 
+		/* Text-overflow specficies how overflowed content that isn't displayed should be shown to the viewer. clip/ellipsis(...)/string/initial/inherit */
 	}
 
 		select option {
@@ -2266,6 +2267,7 @@ input, select, textarea {
 			text-decoration: none;
 			color: #ffffff;
 			cursor: pointer;
+			/* YOU CAN CHANGE THE CURSOR. */
 			display: inline-block;
 			font-size: 1em;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -2444,6 +2446,7 @@ input, select, textarea {
 
 	ol {
 		list-style: decimal;
+		/* Stylize the bullet points for a list */
 		margin: 0 0 2em 0;
 		padding-left: 1.25em;
 	}
